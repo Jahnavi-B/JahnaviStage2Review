@@ -1,7 +1,7 @@
 #!/bin/bash
 
-FLIP=$(($(($RANDOM%10))%2))
-if [ $FLIP -eq 1 ];then
+FLIP=$(($RANDOM%2))
+if [ $FLIP -eq 0 ];then
     echo "heads"
 else
     echo "tails"
